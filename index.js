@@ -6,6 +6,7 @@
 // change the count-el in the HTML
 
 let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 
 console.log(countEl)
 
@@ -17,5 +18,8 @@ function increment() {
 }
 // Create a function that logs out the count variable
 function save(){
-    console.log(count)
+    let temp = count + " - "
+    saveEl.innerText += temp
 }
+
+
