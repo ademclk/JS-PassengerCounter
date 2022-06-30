@@ -12,11 +12,10 @@ console.log(countEl)
 let count = 0
 // Create a function that will increment the count variable by 1
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
 }
 // Create a function that logs out the count variable
 function save(){
     console.log(count)
 }
-
